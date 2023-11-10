@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Amatic+SC&display=swap');
+.conteudo {
+    width: 75%;
+}
+
+.navbar{
+    background-color: #33496a !important;
+}
+
+body{
+    background-color: #a0b7d9 !important;
+}
+
+.conteudo h1 {
+    text-align: center;
+    padding-top: 10%;
+}
+
+.input-group {
+    width: 80%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.input-group-text {
+    width: 20%;
+    color:  #4168a2 !important;
+    background-color: rgb(149, 174, 211) !important;
+}
+.form-control{
+    background-color: #a0b7d9 !important;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+    margin-top: 2%;
+}
+
+.btn {
+    width: 80%;
+}
+
+
+span{
+    font-family: 'Agbalumo', Courier, monospace;
+}
+
+.btn-outline-secondary{
+    font-family: 'Agbalumo', Courier, monospace;
+}
+
+a{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color: #a0b7d9 !important;
+}
+
+h1{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color:  #4168a2 !important;
+}
+
+.navbar-brand{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color: #a0b7d9 !important;
+}
+button{
+    color: #4168a2 !important;
+    border: 2px solid #4168a2 !important;
+}
+button:hover{
+    background-color: #33496a !important;
+    color: #a0b7d9 !important;
+}

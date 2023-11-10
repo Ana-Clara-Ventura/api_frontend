@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Amatic+SC&display=swap');
+.conteudo {
+    width: 75%;
+    font-family: 'Agbalumo', Courier, monospace !important;
+}
+
+.navbar{
+    background-color: #33496a !important;
+}
+
+body{
+    background-color: #a0b7d9 !important;
+}
+
+.conteudo h1 {
+    text-align: center;
+    margin-top: 5%;
+    font-family: 'Agbalumo', Courier, monospace !important;
+    margin-bottom: 5%;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    font-family: 'Agbalumo', Courier, monospace !important;
+}
+
+th, td {
+    text-align: center;
+    font-family: 'Agbalumo', Courier, monospace !important;
+    
+}
+
+th {
+    background-color: #4168a2;
+    color: #a0b7d9;
+    border: 1px solid #395473;
+    font-family: 'Agbalumo', Courier, monospace !important;
+}
+
+td {
+    border: 1px solid #395473;
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color:  #4168a2 !important;
+}
+
+a{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color: #a0b7d9 !important;
+}
+
+h1{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color:  #4168a2 !important;
+}
+
+.navbar-brand{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color: #a0b7d9 !important;
+}

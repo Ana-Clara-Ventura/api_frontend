@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Amatic+SC&display=swap');
+.navbar{
+    background-color: #33496a !important;
+}
+body{
+    background-color: #a0b7d9 !important;
+}
+.conteudo {
+    width: 75%;
+    margin: 25% auto;
+}
+
+.conteudo h1 {
+    text-align: center;
+    font-family: 'Agbalumo', Courier, monospace;
+}
+
+a{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color: #a0b7d9 !important;
+}
+
+h1{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color:  #4168a2 !important;
+}
+
+.navbar-brand{
+    font-family: 'Agbalumo', Courier, monospace !important;
+    color: #a0b7d9 !important;
+}
