@@ -34,40 +34,41 @@
     </header>
 
     <div class="conteudo">
+        <form>
         <h1>CADASTRO</h1>
 
         <div class="input-group">
             <span class="input-group-text">Nome</span>
-            <input type="text" class="form-control" name="input-nome">
+            <input type="text" class="form-control" name="input-nome" required minlength="1" maxlength="50">
         </div>
         <div class="input-group">
             <span class="input-group-text">CPF</span>
-            <input type="number" class="form-control" name="input-cpf">
+            <input type="number" class="form-control" name="input-cpf" required minlength="11" maxlength="14">
         </div>
         <div class="input-group">
             <span class="input-group-text">Data de nascimento</span>
-            <input type="date" class="form-control" name="input-nascimento">
+            <input type="date" class="form-control" name="input-nascimento" required minlength="6" maxlength="8">
         </div>
         <div class="input-group">
             <span class="input-group-text">Telefone</span>
-            <input type="number" class="form-control" name="input-telefone">
+            <input type="number" class="form-control" name="input-telefone" required minlength="5" maxlength="13">
         </div>
         <div class="input-group">
             <span class="input-group-text">Endereço</span>
-            <input type="text" class="form-control" name="input-endereco">
+            <input type="text" class="form-control" name="input-endereco" required minlength="10" maxlength="50">
         </div>
         <div class="input-group">
             <span class="input-group-text">Altura (cm)</span>
-            <input type="number" class="form-control" name="input-altura">
+            <input type="number" class="form-control" name="input-altura" required minlength="3" maxlength="5">
         </div>
         <div class="input-group">
             <span class="input-group-text">Peso (kg)</span>
-            <input type="number" class="form-control" name="input-peso">
+            <input type="number" class="form-control" name="input-peso"required minlength="1" maxlength="2">
         </div>
         <div class="btn-cadastrar">
             <button type="button" class="btn btn-outline-secondary" onclick="cadastrar()">Cadastrar</button>
         </div>
-        
+    </form>
     </div>
 </body>
 

@@ -58,3 +58,14 @@ h1{
     font-family: 'Agbalumo', Courier, monospace !important;
     color: #a0b7d9 !important;
 }
+
+button{
+    color: #4168a2 !important;
+    border: 2px solid #4168a2 !important;
+    height: 50px !important;
+    right: 50px !important;
+}
+button:hover{
+    background-color: #33496a !important;
+    color: #a0b7d9 !important;
+}
